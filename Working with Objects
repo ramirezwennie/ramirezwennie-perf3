@@ -1,0 +1,15 @@
+// objectActivity.js
+
+let car = {
+    type: "Car Type", // Replace with a car type
+    model: "Car Model", // Replace with a car model
+    color: "Car Color" // Replace with a car color
+};
+
+console.log(typeof car); // Logs "object"
+
+car.type = "Toyota"; // Updates the type property
+console.log(car);
+
+car.wheels = 4; // Adds the wheels property
+console.log(car);
