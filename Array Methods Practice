@@ -1,0 +1,30 @@
+// arrayMethodsActivity.js
+
+let arr1 = ["Cecile", "Lone"];
+let arr2 = ["Emil", "Tobias", "Linus"];
+let combinedArray = arr1.concat(arr2); // Concatenates arr1 and arr2
+
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi"); // Adds "Kiwi" to the end
+
+let array1 = [1, 2, 3];
+array1.unshift(4, 5); // Adds 4 and 5 to the beginning
+
+fruits.pop(); // Removes the last element
+
+let array2 = [1, 2, 3];
+array2.shift(); // Removes the first element
+
+fruits.sort(); // Sorts fruits alphabetically
+
+let portionOfFruits = fruits.slice(1, 3); // Creates a new array with elements from index 1 to 2
+
+let months = ["Jan", "Feb", "Mar"];
+months.splice(1, 1, "Apr", "May"); // Removes "Feb" and inserts "Apr" and "May" at index 1
+
+console.log("Combined Array:", combinedArray);
+console.log("Fruits Array:", fruits);
+console.log("Array1:", array1);
+console.log("Array2:", array2);
+console.log("Portion of Fruits:", portionOfFruits);
+console.log("Months Array:", months);
