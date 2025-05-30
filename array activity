@@ -1,0 +1,12 @@
+// arrayActivity.js
+
+let favSingers = ["Singer 1", "Singer 2", "Singer 3"]; // Replace with your favorite singers
+console.log(favSingers[0]); // Logs the first singer
+
+let favNumbers = [10, 20, 30, 40]; // Replace with your favorite numbers
+
+let mixedArr = ["string", ["otherarray"], 123, true];
+console.log(mixedArr[0]); // Logs "string"
+console.log(mixedArr[1]); // Logs ["otherarray"]
+console.log(mixedArr[2]); // Logs 123
+console.log(mixedArr[3]); // Logs true
